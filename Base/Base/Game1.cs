@@ -42,8 +42,9 @@ namespace Base
 			graphics = new GraphicsDeviceManager (this);
 			
 			Content.RootDirectory = "Content";
-
+#if !WINDOWS
 			graphics.IsFullScreen = true;
+#endif
 		}
 
 		/// <summary>
@@ -100,7 +101,8 @@ namespace Base
 			spriteBatch.Begin ();
 
 			// draw the logo
-			spriteBatch.Draw (logoTexture, new Vector2 (130, 200), Color.White);
+            if (logoTexture != null)
+    			spriteBatch.Draw (logoTexture, new Vector2 (130, 200), Color.White);
 
 			spriteBatch.End ();
 
