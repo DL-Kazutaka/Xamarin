@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base", "Base\Base(Android).csproj", "{6FEC3811-6FC5-4DF9-9F7E-1BA99DDDB7EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base(Android)", "Base\Base(Android).csproj", "{528973B2-48FF-4AFE-9ACA-C85F1D32995D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGame.Framework.Android", "..\Lib\MonoGame\project\MonoGame.Framework\MonoGame.Framework.Android.csproj", "{BA9476CF-99BA-4D03-92F2-73D2C5E58883}"
 EndProject
@@ -13,20 +13,24 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{528973B2-48FF-4AFE-9ACA-C85F1D32995D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{528973B2-48FF-4AFE-9ACA-C85F1D32995D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{528973B2-48FF-4AFE-9ACA-C85F1D32995D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{528973B2-48FF-4AFE-9ACA-C85F1D32995D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{528973B2-48FF-4AFE-9ACA-C85F1D32995D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{528973B2-48FF-4AFE-9ACA-C85F1D32995D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BA9476CF-99BA-4D03-92F2-73D2C5E58883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9476CF-99BA-4D03-92F2-73D2C5E58883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9476CF-99BA-4D03-92F2-73D2C5E58883}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BA9476CF-99BA-4D03-92F2-73D2C5E58883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9476CF-99BA-4D03-92F2-73D2C5E58883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA9476CF-99BA-4D03-92F2-73D2C5E58883}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{565129E0-4EE5-4F6F-B403-C3484C9740BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{565129E0-4EE5-4F6F-B403-C3484C9740BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{565129E0-4EE5-4F6F-B403-C3484C9740BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{565129E0-4EE5-4F6F-B403-C3484C9740BE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6FEC3811-6FC5-4DF9-9F7E-1BA99DDDB7EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6FEC3811-6FC5-4DF9-9F7E-1BA99DDDB7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6FEC3811-6FC5-4DF9-9F7E-1BA99DDDB7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6FEC3811-6FC5-4DF9-9F7E-1BA99DDDB7EE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BA9476CF-99BA-4D03-92F2-73D2C5E58883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA9476CF-99BA-4D03-92F2-73D2C5E58883}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA9476CF-99BA-4D03-92F2-73D2C5E58883}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA9476CF-99BA-4D03-92F2-73D2C5E58883}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Base\Base.csproj
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

@@ -10,9 +10,9 @@ using Microsoft.Xna.Framework;
 namespace Base
 {
 	[Activity (Label = "Base", 
-		MainLauncher = true,
 		Icon = "@drawable/icon",
 		Theme = "@style/Theme.Splash",
+        MainLauncher = true,
 		AlwaysRetainTaskState = true,
 		LaunchMode = Android.Content.PM.LaunchMode.SingleInstance,
 		ConfigurationChanges = Android.Content.PM.ConfigChanges.Orientation |
