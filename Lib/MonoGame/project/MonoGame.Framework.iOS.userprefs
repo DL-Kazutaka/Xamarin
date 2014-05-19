@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.ダーツライブのiPad" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonoGame.Framework/iOS/GamerServices/Guide.cs">
+    <Files>
+      <File FileName="MonoGame.Framework/Net/LocalNetworkGamer.cs" Line="51" Column="42" />
+      <File FileName="MonoGame.Framework/iOS/GamerServices/Guide.cs" Line="305" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
