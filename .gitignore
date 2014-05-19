@@ -1,0 +1,8 @@
+Debug
+obj
+bin
+Sounds
+Images
+*.cachefile
+*.userprefs
+InfoPlist.strings
