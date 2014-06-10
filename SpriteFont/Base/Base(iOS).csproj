@@ -111,6 +111,9 @@
       <Link>Content\Textures\logo.xnb</Link>
     </BundleResource>
     <None Include="Info.plist" />
+    <BundleResource Include="..\..\Content\bin\iOS\Content\Fonts\SpriteFont.xnb">
+      <Link>Content\Fonts\SpriteFont.xnb</Link>
+    </BundleResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
@@ -128,4 +131,7 @@
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Content\Fonts\" />
+  </ItemGroup>
 </Project>
