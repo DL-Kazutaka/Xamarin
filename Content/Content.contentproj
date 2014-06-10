@@ -46,6 +46,9 @@
     <Reference Include="MonoGameContentProcessors">
       <HintPath>$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGameContentProcessors.dll</HintPath>
     </Reference>
+    <Reference Include="WpfFontPipeline">
+      <HintPath>..\Lib\WpfFontPipeline\WpfFontPipeline.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Fonts\debugfont.spritefont">
@@ -67,7 +70,16 @@
       <Processor>SoundEffectProcessor</Processor>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="Fonts\SpriteFont.spritefont">
+      <Name>SpriteFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>WpfFontDescriptionProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Bgra4444</ProcessorParameters_TextureFormat>
+      <ProcessorParameters_UseGradient>True</ProcessorParameters_UseGradient>
+      <ProcessorParameters_GradientEndColor>128, 0, 128, 255</ProcessorParameters_GradientEndColor>
+    </Compile>
+  </ItemGroup>
   <ItemGroup>
     <Compile Include="Textures\logo.png">
       <Name>logo</Name>
