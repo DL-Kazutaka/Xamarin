@@ -67,6 +67,18 @@
         <Start>！</Start>
         <End>！</End>
       </CharacterRegion>
+      <CharacterRegion>
+        <Start>テ</Start>
+        <End>テ</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>ス</Start>
+        <End>ス</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>ト</Start>
+        <End>ト</End>
+      </CharacterRegion>
     </CharacterRegions>
   </Asset>
 </XnaContent>
