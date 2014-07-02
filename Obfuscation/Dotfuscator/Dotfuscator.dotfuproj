@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Dotfuscate">
+  <PropertyGroup>
+    <DotfuscatorBinPath>$(MSBuildExtensionsPath)\PreEmptive\Dotfuscator\4</DotfuscatorBinPath>
+    <DotfuscatorDataPath>$(MSBuildExtensionsPath)\PreEmptive\Dotfuscator\4</DotfuscatorDataPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition="'$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition="'$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>4.0</ProductVersion>
+    <SchemaVersion>2.2</SchemaVersion>
+    <ProjectGuid>{7212471d-6f24-481c-8670-6d1d812a7604}</ProjectGuid>
+    <ConfigPath>$(Configuration)\Dotfuscator.xml</ConfigPath>
+    <OutputPath>$(Configuration)</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VSConfigurationCount>2</VSConfigurationCount>
+    <VSConfiguration0>Debug</VSConfiguration0>
+    <VSConfiguration1>Release</VSConfiguration1>
+  </PropertyGroup>
+  <ItemGroup>
+    <InputAssembly Include="..\Base\obj\$(Configuration)\Base.dll">
+      <InputAssemblyType>DynamicProjectOutput</InputAssemblyType>
+      <ProjectGuid>{528973b2-48ff-4afe-9aca-c85f1d32995d}</ProjectGuid>
+      <ProjectUniqueName>Base\Base(Android).csproj</ProjectUniqueName>
+      <ProjectDisplayName>Base(Android)</ProjectDisplayName>
+      <InputAssemblyFileName>Base.dll</InputAssemblyFileName>
+      <OutputGroupCanonicalName>Built</OutputGroupCanonicalName>
+      <OutputGroupDisplayName>プライマリ出力</OutputGroupDisplayName>
+      <OutputConfiguration>$(Configuration)</OutputConfiguration>
+    </InputAssembly>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Base\Base(Android).csproj">
+      <Project>{528973b2-48ff-4afe-9aca-c85f1d32995d}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(DotfuscatorDataPath)\PreEmptive.Dotfuscator.Targets" />
+</Project>

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGame.Framework.Android"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lidgren.Network.Android", "..\Lib\MonoGame\project\ThirdParty\Lidgren.Network\Lidgren.Network.Android.csproj", "{565129E0-4EE5-4F6F-B403-C3484C9740BE}"
 EndProject
+Project("{112FAB98-8405-442A-A09B-9B0FF2F82A7B}") = "Dotfuscator", "Dotfuscator\Dotfuscator.dotfuproj", "{7212471D-6F24-481C-8670-6D1D812A7604}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{565129E0-4EE5-4F6F-B403-C3484C9740BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{565129E0-4EE5-4F6F-B403-C3484C9740BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{565129E0-4EE5-4F6F-B403-C3484C9740BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7212471D-6F24-481C-8670-6D1D812A7604}.Debug|Any CPU.ActiveCfg = Debug
+		{7212471D-6F24-481C-8670-6D1D812A7604}.Debug|Any CPU.Build.0 = Debug
+		{7212471D-6F24-481C-8670-6D1D812A7604}.Release|Any CPU.ActiveCfg = Release
+		{7212471D-6F24-481C-8670-6D1D812A7604}.Release|Any CPU.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

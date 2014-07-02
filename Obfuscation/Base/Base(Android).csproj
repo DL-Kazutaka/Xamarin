@@ -92,4 +92,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
 </Project>
